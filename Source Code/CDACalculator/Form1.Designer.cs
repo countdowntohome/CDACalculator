@@ -172,9 +172,12 @@
             this.Controls.Add(this.GroundSpeedInput);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(562, 249);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(562, 249);
             this.Name = "MainWindow";
             this.Text = "Continuous Descent Calculator";
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

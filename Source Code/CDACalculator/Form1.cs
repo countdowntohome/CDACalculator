@@ -53,6 +53,11 @@ namespace CDACalculator
             }
         }
 
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public MainWindow()
         {
             InitializeComponent();
