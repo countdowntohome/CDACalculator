@@ -1,0 +1,9 @@
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\bin\Release\CDACalculator.exe.config
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\bin\Release\CDACalculator.exe
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\bin\Release\CDACalculator.pdb
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.MainWindow.resources
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.Properties.Resources.resources
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.csproj.GenerateResource.cache
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.exe
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.pdb
