@@ -7,3 +7,4 @@ C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculat
 C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.csproj.CoreCompileInputs.cache
 C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.exe
 C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.pdb
+C:\Users\Joshua\source\repos\CDACalculator\CDACalculator\obj\Release\CDACalculator.csprojAssemblyReference.cache

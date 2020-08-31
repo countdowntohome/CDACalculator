@@ -13,13 +13,25 @@ namespace CDACalculator
     public partial class MainWindow : Form
     {
         public int trackMileage, groundspeed, altitude, elevation;
+        public TextBox[] inputs;
         public string descentRateString;
         public double timeToTouchdown, descentRate;
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
+            inputs = new TextBox[] { TrackMileageInput, GroundSpeedInput, AltitudeInput, ElevationInput};
+
             try
             {
+
+                foreach (TextBox input in inputs)
+                {
+                    if (IsEmpty(input))
+                    {
+                        throw new IndexOutOfRangeException();
+                    }
+                }
+
                 trackMileage = Convert.ToInt32(TrackMileageInput.Text);
                 groundspeed = Convert.ToInt32(GroundSpeedInput.Text);
                 altitude = Convert.ToInt32(AltitudeInput.Text);
@@ -37,13 +49,18 @@ namespace CDACalculator
 
             catch (Exception ex)
             {
-                MessageBox.Show("Error!", "Something went wrong, please check your values and try again", MessageBoxButtons.OK);
+                MessageBox.Show("Something went wrong, please check your values and try again", "Error!", MessageBoxButtons.OK);
             }
         }
 
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private bool IsEmpty(TextBox box)
+        {
+            return box.Text.Length == 0;
         }
 
         private void DigitsOnly(object sender, KeyPressEventArgs e)
